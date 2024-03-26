@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var menu = new Menu();
+            var date = DateTime.UtcNow;
+            var name = Helpers.GetName();
+            menu.ShowMenu(name, date);
         }
     }
 }
