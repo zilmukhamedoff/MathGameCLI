@@ -80,7 +80,7 @@ namespace MathGameCLI
 
         internal static string GetName()
         {
-            Console.Write("Please enter your name");
+            Console.Write("Please enter your name: ");
             var name = Console.ReadLine();
 
             while (string.IsNullOrEmpty(name)) 
