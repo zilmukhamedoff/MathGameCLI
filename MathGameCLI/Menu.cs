@@ -18,13 +18,13 @@
             {
                 Console.Clear();
                 Console.WriteLine($@"
-                Select a game to play:
-                [v] - view previous games
-                [a] - addition
-                [s] - subtraction
-                [m] - multiplication
-                [d] - division
-                [e] - exit the program");
+Select menu option:
+[v] - view previous games
+[a] - addition
+[s] - subtraction
+[m] - multiplication
+[d] - division
+[e] - exit the program");
 
                 Console.WriteLine("----------------------------");
 
