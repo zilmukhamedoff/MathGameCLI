@@ -17,7 +17,8 @@ namespace MathGameCLI
                 var firstNumber = divisionNumbers[0];
                 var secondNumber = divisionNumbers[1];
 
-                Console.WriteLine($"{firstNumber} / {secondNumber}");
+                Console.WriteLine($"{firstNumber} / {secondNumber} = ?");
+                Console.Write("Answer: ");
 
                 var result = Console.ReadLine();
                 result = Helpers.ValidateResult(result);
@@ -56,7 +57,8 @@ namespace MathGameCLI
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} * {secondNumber}");
+                Console.WriteLine($"{firstNumber} * {secondNumber} = ?");
+                Console.Write("Answer: ");
 
                 var result = Console.ReadLine();
                 result = Helpers.ValidateResult(result);
@@ -95,7 +97,8 @@ namespace MathGameCLI
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} - {secondNumber}");
+                Console.WriteLine($"{firstNumber} - {secondNumber}  = ?");
+                Console.Write("Answer: ");
 
                 var result = Console.ReadLine();
                 result = Helpers.ValidateResult(result);
@@ -133,7 +136,8 @@ namespace MathGameCLI
                 firstNumber = random.Next(1, 9);
                 secondNumber = random.Next(1, 9);
 
-                Console.WriteLine($"{firstNumber} + {secondNumber}");
+                Console.WriteLine($"{firstNumber} + {secondNumber}  = ?");
+                Console.Write("Answer: ");
 
                 var result = Console.ReadLine();
                 result = Helpers.ValidateResult(result);
